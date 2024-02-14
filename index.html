@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<title>Abdellatif Elaroussi</title>
+	</head>
+	<script>
+		if (location.hostname !== 'localhost' && location.hostname !== 'elaroussi.net') {
+			location.href = 'https://elaroussi.net';
+		}
+
+		if (location.protocol !== 'https:' && location.hostname !== 'localhost') {
+			location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+		}
+	</script>
+	<style>
+		*,
+		*::before,
+		*::after {
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+			outline: none;
+		}
+
+		::selection {
+			background-color: #333;
+			color: #fff;
+		}
+
+		html,
+		body,
+		:root,
+		.container {
+			height: 100%;
+		}
+
+		body {
+			background-color: #222;
+			color: white;
+			font-family: monospace, sans-serif;
+			text-align: center;
+			font-size: 1rem;
+			padding: 1em;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			gap: 1.5rem;
+			justify-content: center;
+			align-items: center;
+		}
+
+		h1 {
+			font-size: 1.5rem;
+		}
+
+		h2 {
+			font-size: 1rem;
+			color: #999;
+		}
+
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		a:hover,
+		a:focus {
+			text-decoration: underline;
+		}
+	</style>
+	<body>
+		<div class="container">
+			<h1>Sorry, this page is under construction. Please come back later.</h1>
+			<h2>
+				<a
+					href="https://www.linkedin.com/in/elaroussi"
+					target="_blank"
+					referrerpolicy="no-referrer"
+					rel="noopener noreferrer"
+					>Abdellatif Elaroussi</a
+				>, 2024
+			</h2>
+		</div>
+	</body>
+</html>
