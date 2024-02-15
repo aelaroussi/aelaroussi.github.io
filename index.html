@@ -27,12 +27,11 @@
 			content="Personal website of Abdellatif Elaroussi, showcasing projects and professional journey." />
 	</head>
 	<script>
-		if (location.hostname !== 'localhost' && location.hostname !== 'elaroussi.net') {
-			location.href = 'https://elaroussi.net';
-		}
-
 		if (location.protocol !== 'https:' && location.hostname !== 'localhost') {
 			location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+		}
+		if (location.hostname !== 'localhost' && location.hostname !== 'elaroussi.net') {
+			location.href = 'https://elaroussi.net';
 		}
 	</script>
 	<style>
